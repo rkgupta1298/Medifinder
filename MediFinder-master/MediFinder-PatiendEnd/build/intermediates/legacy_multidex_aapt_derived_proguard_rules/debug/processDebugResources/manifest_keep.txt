@@ -1,0 +1,2 @@
+# Referenced at G:\MediFinder-master\MediFinder-PatiendEnd\build\intermediates\merged_manifests\debug\AndroidManifest.xml:31
+-keep class com.parse.starter.StarterApplication { <init>(); }

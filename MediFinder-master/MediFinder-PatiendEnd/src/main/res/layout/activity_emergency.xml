@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Emergency" >
+
+    <Button
+        android:id="@+id/special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="knowSpecialist"
+        android:text="knowYourSpecialist" />
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/radioOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Gender" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Enter Age" />
+
+    <EditText
+        android:id="@+id/ageVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:clickable="false"
+        android:ems="5"
+        android:hint="Age.."
+        android:inputType="number"
+        android:text="27" />
+
+    <TextView
+        android:id="@+id/specialist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="Select Specialist" />
+
+    <CheckBox
+        android:id="@+id/spec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:onClick="selectSpecialist"
+        android:text="spec1" />
+
+    <CheckBox
+        android:id="@+id/spec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="250dp"
+        android:layoutDirection="ltr"
+        android:onClick="selectSpecialist"
+        android:text="spec2" />
+
+    <CheckBox
+        android:id="@+id/spec3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:onClick="selectSpecialist"
+        android:text="spec3" />
+
+    <CheckBox
+        android:id="@+id/spec4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="290dp"
+        android:layoutDirection="ltr"
+        android:onClick="selectSpecialist"
+        android:text="spec4" />
+
+    <CheckBox
+        android:id="@+id/spec5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:onClick="selectSpecialist"
+        android:text="spec5" />
+
+    <CheckBox
+        android:id="@+id/spec6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="330dp"
+        android:layoutDirection="ltr"
+        android:onClick="selectSpecialist"
+        android:text="spec6" />
+
+    <CheckBox
+        android:id="@+id/spec7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:onClick="selectSpecialist"
+        android:text="spec7" />
+
+    <CheckBox
+        android:id="@+id/spec8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="370dp"
+        android:layoutDirection="ltr"
+        android:onClick="selectSpecialist"
+        android:text="spec8" />
+
+    <Button
+        android:id="@+id/emergenece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="emergency"
+        android:text="EMERGENCY" />
+
+      <Button
+    android:id="@+id/logout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="250dp"
+    android:layout_marginLeft="130dp"
+    android:layout_marginTop="522dp"
+    android:layout_marginEnd="164dp"
+    android:layout_marginRight="164dp"
+    android:layout_marginBottom="135dp"
+    android:onClick="LogOut"
+    android:text="Logout" />
+</RelativeLayout>

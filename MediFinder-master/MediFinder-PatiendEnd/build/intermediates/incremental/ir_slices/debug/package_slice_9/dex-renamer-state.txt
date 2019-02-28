@@ -1,0 +1,4 @@
+#Thu Feb 28 18:26:42 IST 2019
+base.0=G\:\\MediFinder-master\\MediFinder-PatiendEnd\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex
